@@ -1,0 +1,14 @@
+.container{
+  background-color: pink;
+}
+.foot{
+  padding: 5px;
+}
+.special{
+  max-height: 140px;
+  /* border: 1px solid white; */
+}
+.special [class*='col-']{
+  border: 1px solid white;
+  background-color: #f4648a;
+}
