@@ -4,14 +4,22 @@
 .foot{
   padding: 5px;
 }
-.special{
-  max-height: 140px;
+/* Regole di debug / bordo */
+.border [class*='col-']{
+  height: 150px;
+  border: 1px solid black;
 }
+.border [class*='col-offset']{
+  height: 150px;
+  border: 1px solid black;
+}
+/* /Regole di debug / bordo */
 [class*='col-']{
   text-align: center;
   position: relative;
 }
 .special [class*='col-']{
+  height: 140px;
   border: 1px solid white;
   background-color: #f4648a;
 }
